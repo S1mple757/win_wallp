@@ -1,6 +1,4 @@
-#enable
-Set-ExecutionPolicy Unrestricted
-# Path to the wallpaper image
+# Define the path to the wallpaper image
 $imagePath = "C:\temp\Wallp\ver01\polina-rytova-1dGMs4hhcVA-unsplash.jpg"
 
 # Define the Windows API function to set the wallpaper
@@ -20,7 +18,3 @@ $SPIF_UPDATEINIFILE = 0x0001
 
 # Call the SystemParametersInfo function to set the wallpaper
 [Wallpaper]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $imagePath, $SPIF_UPDATEINIFILE)
-
-# disable user preference
-Start-Sleep -Seconds 30
-Set-ExecutionPolicy Restricted
