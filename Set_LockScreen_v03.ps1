@@ -7,7 +7,7 @@ $LockScreenStatus = "LockScreenImageStatus"
 $LockScreenUrl = "LockScreenImageUrl"
 
 $StatusValue = 1
-$LockScreenImageValue = "C:\temp\Wallp\ver03\polina-rytova-1dGMs4hhcVA-unsplash.jpg"  # Adjust as needed
+$LockScreenImageValue = "C:\temp\Wallp\ver03_1\oranta_zastavka2.jpg"  # Adjust as needed
 
 # Check if registry key exists
 if (-not (Test-Path $RegKeyPath)) {
