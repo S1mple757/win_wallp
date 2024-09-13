@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Unrestricted
 # Path to the wallpaper image
 $imagePath = "C:\temp\Wallp\ver01\polina-rytova-1dGMs4hhcVA-unsplash.jpg"
 
