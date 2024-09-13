@@ -1,4 +1,4 @@
-$imagePath = "C:\temp\Wallp\polina-rytova-1dGMs4hhcVA-unsplash.jpg"
+$imagePath = "C:\temp\Wallp\ver01\polina-rytova-1dGMs4hhcVA-unsplash.jpg"
 Add-Type -TypeDefinition @"
 using System;
 using System.Runtime.InteropServices;
